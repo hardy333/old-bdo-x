@@ -1,0 +1,125 @@
+.dashboard-navbar{
+  position: relative;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.dashboard-navbar .btn-outlined{
+  transition: all 0.2s ease;
+}
+
+.dashboard-navbar .btn-outlined:hover{
+  background-color: var(--color-primary-4);
+  color: white;
+
+}
+
+.dashboard-navbar .btn-link{
+  position: relative;
+  z-index: 999;
+
+}
+
+.dashboard-navbar .btn-link::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 4px;
+  width: 40px;
+  height: 1px;
+  transform: translate(-50%, 0);
+  background-color:rgb(110, 15, 245);
+  opacity: 0;
+  transition: 0.2s ;
+}
+
+.dashboard-navbar .btn-link:hover::before{
+  filter: brightness(90%);
+  opacity: 1;
+}
+
+.gdm-container{
+  position: relative;
+  z-index: 999;
+}
+
+/* Ring */
+
+.ring-link{
+  position: relative;
+
+}
+
+.ring-box{
+  position: absolute;
+  left: -100px;
+  top: 150%;  
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+
+  width: 215px;
+  height: 236px;
+
+  background: #F9F8FC;
+  box-shadow: 0px 2px 3px rgba(119, 115, 128, 0.15);
+  border-radius: 24px;
+  cursor: default;
+  /* user-select: none; */
+  /* -webkit-user-select: none; */
+  display: none;
+  pointer-events: none;
+
+}
+
+.dashboard--dash .ring-box{
+  display: flex;
+}
+
+.ring-box header{
+  display: flex;
+  gap: 1rem;
+
+}
+
+.ring-box header svg{
+  width: 22px;
+}
+
+.ring-box p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+
+}
+
+.ring-box footer{
+  margin-top: auto;
+}
+
+
+.ring-box h2{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #406AFF;
+  margin-top: 1rem;
+}
+
+.ring-box footer p:nth-child(1){
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+
+
+.ring-box footer p:nth-child(2){
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #01C6B5;
+}

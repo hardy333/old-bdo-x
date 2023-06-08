@@ -1,0 +1,45 @@
+.invoices-table-status-btn{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 5px;
+ /* margin: auto; */
+ width: 86px;
+ height: 18px;
+ font-size: 13px;
+ color: #211543;
+ cursor: default;
+ font-weight: 400;
+ background-color: transparent;
+ text-align: start;
+ padding: 0;
+ /* background-color: red; */
+}
+
+.invoices-table-status-btn--success{
+  color: #1ED8B9;
+
+}
+
+.invoices-table-status-btn--danger{
+  color: #FF5886;
+
+}
+
+.invoices-table .ag-cell[col-id="Status"]{
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  
+}
+
+.invoices-table .ag-row{
+  cursor: pointer;
+}
+
+.invoices-table   .ag-cell-focus{
+  /* border: none !important; */
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,10 @@
+.invoice-details-table .ag-row{
+  cursor: pointer;
+}
+
+.invoice-details-table   .ag-cell-focus{
+  /* border: none !important; */
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,30 @@
+body{
+  /* background-color: red; */
+}
+
+.global-filter-input{
+  background: url(../assets/marlin-icons/search.svg);
+  background-repeat: no-repeat;
+  background-size: auto 60%;
+  background-position: left bottom 5px;
+  outline: none;
+  width: 200px;
+
+  border-bottom-color: #1a1f3dd5;
+  transform: translate(0, -5px);
+  padding-left: 0;
+}
+
+.global-filter-input:focus {
+  outline: none;
+
+}
+
+.global-filter-input:focus{
+  background: unset;
+}
+
+.global-filter-input.input-filled{
+  background: unset;
+
+}

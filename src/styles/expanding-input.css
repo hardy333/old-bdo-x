@@ -1,0 +1,79 @@
+
+.expanding-input-wrapper{
+  position: relative;
+  --img-size: 18px;
+  width: 170px;
+  max-width: 100%;
+  width: calc(var(--img-size));
+  --duration: 0.3s;
+  transform-origin: right;
+  transition: all var(--duration) ease;
+  background-color: transparent;
+  border-radius: none;
+
+
+}
+
+.expanding-input-wrapper.open{
+  width: 170px;
+}
+
+.expanding-input{
+  border: 0;
+  border-bottom: 1px solid #211543;
+  font-size: 14px;
+  padding: 2px 4px;
+  width: 100%;
+  border-bottom-color: transparent;
+  transition: width var(--duration) ease;
+  padding-left: calc(var(--img-size) + 3px);
+  transition: all var(--duration) ease;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.expanding-input-wrapper.open .expanding-input{
+  border-bottom-color: #211543;
+}
+
+.expanding-input:focus{
+  outline: none;
+}
+
+.expanding-input-img{
+  position: absolute;
+  width: var(--img-size);
+  height: var(--img-size);
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  fill: #D0C7E8;
+
+}
+
+.expanding-input-wrapper.open .expanding-input-img{
+  fill: #211543;
+}
+
+.expanding-input-img-x{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+  width: 10px;
+  height: 10px;
+  fill: #D0C7E8;
+
+}
+
+.expanding-input-wrapper.open .expanding-input-img-x{
+  opacity: 1;
+  fill: #211543;
+  pointer-events: all;
+}
+

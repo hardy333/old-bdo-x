@@ -1,0 +1,42 @@
+.order-details-left{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+}
+
+.order-details-left h4{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 5rem;
+
+  color: #211543;
+  text-transform: capitalize;
+
+}
+
+.order-details-left > span{
+  font-weight: 700;
+  font-size: 14px;
+  color: #211543;
+  
+}
+
+
+.order-details-left .btn{
+  font-size: 12px !important;
+  padding: 6px 18px;
+}
+
+.order-details-left .btn:hover{
+  filter: brightness(95%);
+}
+
+
+.order-details-table  .ag-cell-focus{
+  /* border: none !important; */
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

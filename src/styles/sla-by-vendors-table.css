@@ -1,0 +1,12 @@
+.sla-by-vendors__header h4{
+  margin-right: 0;
+  font-size: 18px;
+}
+
+.sla-by-vendors__header .btn-date{
+  padding-inline: 1rem ;
+}
+
+.sla-by-vendors__header .avarage-sla{
+  font-size: 14px;
+}

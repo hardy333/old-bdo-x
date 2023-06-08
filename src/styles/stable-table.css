@@ -1,0 +1,45 @@
+.stable-table{
+  border: none;
+  --head-body-padding: 2.5rem;
+  /* --head-body-padding: 0rem; */
+  position: relative;
+
+}
+
+/* Inputs */
+/* Inputs */
+.stable-table input{
+  border: none !important;
+  border-bottom: 1px solid rgba(33, 21, 67, 0.13) !important;
+  box-shadow: unset;
+  border-radius: 0 !important;
+  font-weight: 400;
+  font-size: 14px !important;
+  height: 3rem;
+  /* color: #D0C7E8 !important; */
+  color: #211543;
+}
+
+.stable-table input::placeholder{
+  color: #D0C7E8;
+  font-size: 12px;
+}
+
+.stable-table input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
+/* scrollbar */
+
+.stable-table .ag-body-horizontal-scroll{
+  display: none !important;
+
+}
+
+.stable-table .ag-body-horizontal-scroll-viewport{
+  display: none !important;
+
+}

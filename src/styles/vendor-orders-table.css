@@ -1,0 +1,69 @@
+
+.vendors-all-orders-table  .ag-cell-focus{
+  /* border: none !important; */
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.vendors-all-orders-table .ag-row-focus{
+  background-color: #fff;
+
+}
+
+.vendors-all-orders-table .ag-row-hover{
+  background-color: #fff !important;
+  filter: brightness(100%);
+
+}
+
+.vendors-all-orders-table .ag-cell{
+  background-color: white;
+}
+
+
+
+.vendors-all-orders-table .ag-cell[col-id="Status"]{
+  cursor: pointer;
+}
+
+
+.vendors-all-orders-table .ag-cell--opened .ag-cell-status-value{
+  display: none;
+}
+
+.vendors-all-orders-table .ag-cell .status-container{
+  display: none;
+}
+
+.vendors-all-orders-table .ag-cell--opened .status-container{
+  display: block;
+}
+
+
+.avarage-sla{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #211543;
+
+
+
+}
+
+.avarage-sla span{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #01C6B5;
+  display: inline-block;
+  margin-left: 10px;
+
+}
+
+.vendors-all-orders-table .ag-row{
+  cursor: pointer;
+}

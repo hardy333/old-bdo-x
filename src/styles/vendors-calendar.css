@@ -1,0 +1,46 @@
+.vendors-calendar__left{
+  width: 320px;
+  margin-right: 3rem;
+
+}
+
+
+/* Distributors Date */
+.dis-date-container{
+  display: flex;
+  
+}
+
+.days-container{
+  font-size: 14px;
+  display: flex;
+  gap: 1rem;
+  font-weight: 500;
+
+}
+
+.days-container span{
+  font-weight: 600;
+  font-size: 14px;
+}
+.circle-container{
+  margin-left: 3rem;
+
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.circle-container .circle{
+  display: block;
+  --size: 8px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 100%;
+  background: rgba(110, 15, 245, 0.58);
+}
+
+.circle-container .circle.active{
+  background-color: #6E0FF5;
+
+}

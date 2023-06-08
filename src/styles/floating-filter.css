@@ -1,0 +1,8 @@
+#marlin-table.ag-grid-example .ag-header-row-column-filter{
+  display: none !important;
+}
+
+#marlin-table.ag-grid-example .ag-header{
+  height: 49px !important;
+  min-height: 49px !important;
+}

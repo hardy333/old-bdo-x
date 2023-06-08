@@ -1,0 +1,40 @@
+.table-settings-modal-btn{
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    --size: 30px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999999999;
+    background-color: var(--color-primary-2);
+
+}
+
+.table-settings-modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    bottom: 0;
+    background-color: var(--bg-aside);
+    z-index: 99999999;
+    transform: translate(150%, 0%);
+    transition: transform 0.3s ease-in-out;
+    color: white;
+
+
+
+}
+
+
+.table-settings-modal--open{
+    transform: translate(0%, 0);
+
+}

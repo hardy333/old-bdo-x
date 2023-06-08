@@ -1,0 +1,223 @@
+
+.header-cell-menu-button-2{
+  right: 2rem !important;
+}
+
+.header-cell-menu-2{
+
+}
+
+.header-cell-menu-2 .szh-menu{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0.5px 5px -2px rgba(0, 0, 0, 0.2) !important;
+  overflow: visible !important;
+
+}
+
+.header-cell-menu-2 .szh-menu__item{
+  padding-inline: 1.5rem !important;
+  color:#211543;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.header-cell-menu-2 .szh-menu header{
+  width: 100%;
+  flex-shrink: 0;
+  width: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* height: 100px; */
+  padding: 1.5rem;
+  padding-top: 2rem;
+}
+
+.header-cell-menu-2 .szh-menu header::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 1px;
+  width: calc(100% - 3rem);
+  transform: translate(-50%, -4px);
+  background-color: transparent;
+  border-bottom: 0.5px solid #D0C7E8;
+
+}
+
+.header-cell-menu-2__child-menu-button{
+  position: static !important;
+  color: #fff;
+  width: 100% !important;
+  height: 24px !important;
+  background: rgba(208, 199, 232, 0.25) !important;
+  border-radius: 15px !important;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #211543d3;
+  letter-spacing: 0.5px;
+  margin-bottom: 0 !important;
+  transform: translate(0, 0) !important;
+
+}
+
+
+
+.header-cell-menu-2 .szh-menu header input{
+  color: black;
+  font-size: 12px;
+  padding: 5px 1rem !important;
+
+  font-weight: 400;
+  font-size: 12px !important;
+
+  /* width: 158px; */
+  width: 100%;
+  height: 24px;
+  
+
+  border: 1px solid #D0C7E8 !important;
+  border-radius: 15px !important;
+
+
+  color: #D0C7E8;
+  line-height: 12px !important;
+  color: #211543;
+
+}
+
+.header-cell-menu-2 .szh-menu header input:focus{
+  border: 1px solid var(--color-primary-4) !important;
+}
+
+
+
+
+
+/* Child Menu */
+/* Child Menu */
+.header-cell-menu-2__child-menu{
+
+}
+
+
+
+
+.header-cell-menu-2__child-menu .szh-menu {
+  width: 180px !important;
+  margin-top: 10px !important;
+}
+
+.header-cell-menu-2__child-menu  .szh-menu__item{
+  
+}
+
+
+/* headless */
+/* headless */
+
+
+
+/* Custom menu */
+.filters-menu-btn {
+  position: relative;
+  z-index: 9999
+  
+}
+
+.filters-menu-btn ul{
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 5px);
+  z-index: 9999999999999;
+
+  background-color: #fff;
+
+  border-radius: 15px;
+  box-shadow: 0px 0.5px 5px -2px rgba(0, 0, 0, 0.2) !important;
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+
+.filters-menu-btn li{
+  text-align: start;
+  padding: 0.8rem 1rem;
+
+}
+
+
+.filters-menu-btn li:hover{
+  
+  background-color: #d0c7e856;
+}
+
+
+
+.header-cell-menu-2 input[type="checkbox"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: var(--form-background);
+  /* Not removed via appearance */
+  margin: 0;
+
+
+  display: grid;
+  place-content: center;
+  --size: 15px;
+
+  width:var(--size) !important;
+  height:var(--size) !important;
+
+  min-width: var(--size);
+  min-height: var(--size);
+
+  background: #FFFFFF;
+  position: relative;
+  border-radius: 7px;
+  outline: none;
+
+  border: none;
+  margin-bottom: 0;
+  border: 0.5px solid #D0C7E8 !important;
+  border-radius: 3px !important;
+}
+
+.header-cell-menu-2 input[type="checkbox"]::before {
+  content: '';
+  background-color: transparent !important;
+
+  background: url(../assets/person-check-2.svg);
+  background-size: contain;
+  background-position: center 1px, center 2px;
+  background-repeat: no-repeat;
+  transform: scale(0) translate(0, -1px) !important;
+  transform-origin: center;
+  transition: 100ms transform ease-in-out;
+  /* Windows High Contrast Mode */
+  /* background-color: CanvasText; */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+
+}
+
+.header-cell-menu-2 input[type="checkbox"]:checked::before {
+  transform: scale(1) translate(0, -2px) !important;
+
+}

@@ -1,0 +1,210 @@
+.all-orders{
+
+}
+
+.all-orders .dashboard-main__container{
+    max-width: 1270px;
+    
+}
+
+.all-orders__header{
+
+}
+
+.all-orders__arrow-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #211543;
+
+}
+
+.all-orders__arrow-container img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.all-orders__settings{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0px;
+    padding-top: 0;
+    /* margin-bottom: 2rem; */
+}
+
+/* Left */
+/* Left */
+
+.all-orders__gdm-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #211543;
+
+    cursor: pointer;
+
+}
+
+.all-orders__gdm-container img{
+    width: 30px;
+
+}
+
+.all-orders__gdm-container {
+    margin-left: 0 !important;
+
+}
+
+
+/* Right  */
+/* Right  */
+
+.all-orders__settings__options{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    
+}
+
+.all-orders__settings__options > button{
+    width: 20px;
+    height: 20px;
+}
+
+.all-orders__settings__options button svg{
+    width: 100% !important;
+    width: 18px;
+    height: 18px;
+}
+
+.all-orders__settings{
+    
+
+}
+
+.all-orders__input-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.all-orders__input-img{
+    margin-bottom: -9px;
+    cursor: pointer;
+
+}
+
+.all-orders__input{
+    box-shadow: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(33, 21, 67, 0.13);
+    background-color: transparent;
+
+}
+
+.all-orders__input::placeholder{
+    color: #D0C7E8;
+}
+
+.all-orders__btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+
+
+
+}
+
+.all-orders__btn img,
+.all-orders__btn svg{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    object-fit: contain;
+    opacity: 1;
+    
+}
+
+.all-orders__btn svg{
+    fill: var(--icon-color-light);
+    transition: fill 0.2s ease-in-out;
+}
+
+.all-orders__btn:hover svg{
+    fill: var(--icon-color-dark);
+}
+
+.szh-menu-button--open.all-orders__btn svg,
+.all-orders__btn.active svg{
+    fill: var(--icon-color-dark);
+}
+
+.all-orders__btn-filter  img{
+    height: 27px;
+    width: 27px;
+}
+
+.excel-export-btn{
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.excel-export-btn svg{
+    width: 50px !important;
+    height: 20px !important;
+}
+
+/* Table */
+/* Table */
+/* Table */
+
+.all-orders .table-wrapper{
+    height: 470px !important;
+}
+
+.all-orders table{
+    margin: 0px;
+    margin-right: 0px o !important;
+}
+
+
+/* Modals */
+.szh-menu, .szh-menu--state-open,  .szh-menu--dir-bottom{
+    z-index: 9999999999;
+    position: relative;
+}
+
+.all-orders__btn.szh-menu-button--open{
+    background-color: transparent;
+}
+
+table .th-dots{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+table thead{
+    position: relative;
+    z-index: 1000;
+}
+
+table tbody{
+    position: relative;
+}
+
+table th{
+    z-index: 99999;
+    position: relative !important;
+}

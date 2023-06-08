@@ -1,0 +1,14 @@
+
+
+.ag-body-horizontal-scroll-viewport{
+  /* display: none !important; */
+
+}
+
+@media (max-width: 1200px){
+
+  .ag-body-horizontal-scroll-viewport{
+    /* display:  block !important; */
+  
+  }
+}

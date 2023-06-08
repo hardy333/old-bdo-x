@@ -1,0 +1,91 @@
+.login{
+
+}
+
+.login h1{
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #211543;
+  text-align: center;
+}
+
+.login-form{
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.login .input{
+  width: 100%;
+  padding: 1.2rem 24px;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+
+.login .input:first-child{
+  margin-bottom: 2rem;
+}
+
+.login .input::placeholder{
+  color: #D0C7E8;
+  font-weight: 700;
+  font-size: 12px;
+
+}
+
+.login-form small{
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 3rem;
+
+
+}
+
+.login-form .btn{
+  background-color: var(--color-primary-4);
+  margin: auto;
+  color: #fff;
+  width: 220px;
+  padding: 10px 20px;
+
+  border-radius: 30px;
+  margin-bottom: 2rem;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+
+    
+}
+
+.login-form .btn:hover{
+  /* background-color: transparent;
+  border: 1px solid var(--color-primary-4);
+  color: var(--color-primary-4); */
+
+  background-color: #360083;
+
+}
+
+.login-form__login{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.login-form__login a{
+  color: #406AFF
+}
+
+
+.login-link{
+  color: #2654D3 !important;
+}
+
+.login-link:hover{
+  color: #0A389e !important;
+}

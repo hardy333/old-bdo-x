@@ -1,0 +1,85 @@
+.catalogue-label{
+  font-size: 14px !important;
+}
+
+.categories .input-wrapper{
+}
+
+.categories .input-wrapper .input{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.categories .input-wrapper .input{
+  border:1px solid #211543a1;
+  
+}
+
+.categories .input-wrapper .input:focus{
+  border:1px solid #6E0FF5;
+  outline: none;
+  
+}
+
+.categories .input-wrapper  svg{
+  left: 0.5rem !important;
+}
+
+
+/* Catalogue Menu */
+/* Catalogue Menu */
+
+.catalogue-menu ul{
+
+}
+
+.catalogue-menu li{
+
+}
+
+.catalogue-menu-btn{
+  background-color: #fff;
+  padding: 2px 3rem;
+  padding-left: 2rem;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #211543;
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 1px 5px -4px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.catalogue-menu-btn img{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+
+}
+
+.catalougue-btn{
+  align-items: center;
+  height: 100%;
+
+
+}
+
+.catalougue-btn button{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  border-radius: 7px;
+  /* identical to box height */
+  color: #FFFFFF;
+
+}

@@ -1,0 +1,266 @@
+.dashboard-aside {
+  background-color: var(--bg-aside);
+  min-height: 580px;
+  width: var(--sidebar-width);
+
+  /* padding: 1rem; */
+  padding-bottom: 3rem;
+  border-radius: 20px;
+
+  position: fixed;
+  left: var(--sidebar-inline-margin);
+  top: 20px;
+  bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  transition: all 0.3s ease-in-out;
+  /* overflow: hidden; */
+
+  user-select: none;
+
+  z-index: 1001;
+
+  font-family: "DejaVu Sans", sans-serif !important;
+
+
+}
+
+.dashboard-aside.go-right {
+  left: 100px;
+}
+
+
+.dashboard-aside  a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dashboard-aside-container {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  max-width: 100%;
+}
+
+/* LOGO */
+/* LOGO */
+/* LOGO */
+/* LOGO */
+.marlin-logo-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.logo-img{
+    width: 100%;
+    width: 45px;
+    height: 46.6px;
+    display: block;
+    flex-shrink: 0;
+    user-select: none;
+}
+
+.marlin-text{
+    opacity: 0;
+    height: 22px;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    transition: var(--sidebar-open-animation-duration) ease-in-out;
+    user-select: none;
+
+}
+
+.body-sidebar-open .marlin-text{
+    opacity: 1;
+}
+  
+
+/* Logo end */
+/* Logo end */
+
+.dashboard-aside__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+
+  margin-top: 3rem;
+  flex-grow: 1;
+
+  max-width: 100% !important;
+  pointer-events: none;
+
+
+}
+
+.dashboard-aside__list li{
+  position: relative;
+  /* padding-inline: 2rem; */
+  pointer-events: all;
+
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #1c1238;
+  cursor: pointer;
+
+
+}
+
+.dashboard-aside__list li:hover{
+  /* background-color: hsl(256, 51%, 18%); */
+
+
+}
+
+.dashboard-aside__list li:hover::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 4px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.dashboard-aside__list li:has(a.active){
+  /* background-color: hsl(256, 51%, 18%); */
+
+}
+
+
+.dashboard-aside__list li:has(a.active)::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 4px;
+  background-color: #fff;
+  border-radius: 25px;
+
+}
+
+.dashboard-aside__list a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  gap: 1rem;
+  align-items: center;
+  /* font-family: "babuka" !important; */
+  text-transform: lowercase;
+  width: 100%;
+  padding:0.5rem 2rem;
+
+}
+
+.dashboard-aside__list img {
+  width: 2.5rem;
+  margin: auto;
+  display: block;
+  /* transition: all 0.3s; */
+  filter: brightness(60%);
+}
+
+.dashboard-aside__list span{
+  /* transition: 0.3s; */
+  opacity: 0;
+  filter: brightness(60%);
+
+}
+
+
+.aside-label {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8) !important;
+  opacity: 0;
+  transition: var(--sidebar-open-animation-duration) ease-in-out;
+  pointer-events: none;
+
+
+}
+
+.body-sidebar-open .aside-label {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.dashboard-aside__list__vendor {
+  display: block;
+  transform: translate(0, 5px);
+}
+
+.dashboard-aside__list__vendor + span {
+  transform: translate(0, 5px);
+}
+
+.dashboard-aside__list li:hover img{
+  /* transform: scale(1.1); */
+  filter: brightness(100%);
+}
+
+.body-sidebar-open  .dashboard-aside__list li:hover span{
+  filter: brightness(100%) !important;
+  opacity: 1
+
+
+}
+
+
+.dashboard-aside__list a.active img {
+  filter: brightness(100%);
+
+}
+
+
+.body-sidebar-open .dashboard-aside__list a.active span {
+  filter: brightness(100%);
+  opacity: 1;
+}
+
+.aside-terms {
+  margin-top: auto;
+}
+
+.aside-paper {
+}
+
+
+/* Close/Open Btn */
+/* Close/Open Btn */
+
+.aside-btn{
+  position: absolute;
+  right: 0%;
+  top: 64px;
+  transform: translate(50%, 0) ;
+  cursor: pointer;
+
+}
+
+
+.aside-btn img {
+  transition:  var(--sidebar-open-animation-duration) ease-in-out;
+  transform: rotate(0deg);
+}
+
+
+.body-sidebar-open .aside-btn img {
+  transform: rotate(180deg);
+
+
+}

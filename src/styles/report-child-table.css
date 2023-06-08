@@ -1,0 +1,132 @@
+.report-child-header .title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.report-child-header .vendor-name{
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+.report-child-header .avarage{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.report-child-header .avarage-parcent{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #01C6B5;
+
+}
+
+/*  */
+/* service child menu : items, shops... */
+
+.report-child-menu ul{
+  background: #FFFFFF;
+  box-shadow: 0px 3px 5px rgba(208, 199, 232, 0.5) !important;
+  border-radius: 15px !important;
+  overflow: hidden;
+}
+
+.report-child-menu-button{
+  height: 36px;
+  padding: 0 1rem;
+  border-radius: 14px;
+  width: 180px;
+  font-size: 14px;
+  background-color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+
+}
+
+.report-child-menu-button svg{
+  width: 15px;
+  max-height: 15px;
+}
+
+.report-child-menu-button:hover{
+  /* background: #ebe8f5ac; */
+}
+
+.report-child-menu-arrow {
+  transition: transform 0.3s ease;
+  fill: hsl(0, 0%, 80%);
+  transform: scale(1.3);
+  margin-left: auto;
+}
+.report-child-menu-button.open {
+  outline: 1px solid #bb86fc;
+}
+
+.report-child-menu-button:focus{
+  outline: 1px solid #bb86fc;
+}
+
+.report-child-menu-button.open .report-child-menu-arrow {
+  transform: scale(1.3) rotate(-180deg);
+  fill: hsl(0, 0%, 40%);
+
+}
+
+/* 123||321 */
+/* 123||321 */
+/* 123||321 */
+
+
+.report-child-menu .szh-menu{
+  margin-top: 10px !important;
+  width: 180px;
+  box-shadow: 0px 1px 3px 1px rgba(208, 199, 232, 0.25) !important;
+
+}
+
+.report-child-menu .szh-menu__item{
+  padding: 0;
+  height: 30px;  
+
+  display: flex;
+  align-items: center;  
+  gap: 1rem;
+  padding: 10px;
+  color: #D0C7E8;
+}
+
+.report-child-menu .szh-menu__item.selected{
+  color: rgb(26, 31, 61);
+
+}
+
+.report-child-menu .szh-menu__item svg{
+  width: 15px !important;
+  fill: #D0C7E8;
+  
+}
+
+.report-child-menu .szh-menu__item--hover{
+  background-color: #fff;
+  color: rgba(26, 31, 61, 0.578);
+}
+
+.report-child-menu .szh-menu__item--hover svg{
+  fill: rgba(26, 31, 61, 0.578);
+}
+
+.report-child-menu .szh-menu__item.selected svg{
+  fill: rgb(26, 31, 61);
+}
+
+

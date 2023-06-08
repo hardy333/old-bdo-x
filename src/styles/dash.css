@@ -1,0 +1,7 @@
+.main-dashboard .apexcharts-toolbar{
+  display: none;
+}
+
+.main-dashboard .apx-legend-position-bottom{
+  display: none;
+}

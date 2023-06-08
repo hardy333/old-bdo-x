@@ -1,0 +1,21 @@
+
+.swiper {
+  width: 500px;
+  padding: 1rem;
+}
+
+.swiper-slide {
+  /* height: 100px; */
+  /* width: 200px !important; */
+  height: 100% !important;
+  margin: auto;
+
+}
+
+
+.swiper-slide .carousel-item{
+  height: 70px;
+  width: 100%;
+  box-shadow: 2px 8px 3px -5px rgba(0, 0, 0, 0.2);
+
+}

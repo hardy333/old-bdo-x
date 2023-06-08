@@ -1,0 +1,207 @@
+/* Buttons */
+/* Buttons */
+.btn{
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 7px 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+}
+.btn img{
+  --size: 12px;
+  width: var(--size);
+  height: var(--size);
+
+}
+
+.btn-outlined{
+  background-color: transparent;
+  color: black;
+  border: 1px solid #211543;
+  /* border: 1px solid ; */
+
+}
+
+.btn-black{
+  color: #211543;
+  border: 1px solid transparent;
+
+
+  
+}
+
+.btn-warning{
+
+  background-color: #FFC23C;
+  color: #211543;
+}
+
+.btn-success{
+  color: var(--color-text-1);
+  background-color: var(--color-primary-1);
+  border: 1px solid transparent;
+
+  
+}
+
+.btn-blue{
+  color: var(--color-primary-4);
+  border-color: var(--color-primary-4);
+  font-weight: 700;
+
+}
+
+
+
+/* Inputs */
+/* Inputs */
+.input-wrapper{
+  position: relative;
+}
+
+.input{
+  width: 260px;
+  max-width: 100%;
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding-left: 4rem !important;
+  box-shadow: 0px 3px 5px rgba(208, 199, 232, 0.05);
+}
+
+.input-wrapper .input{
+  padding-top: 2px !important;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+input[type="number"]{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance:textfield;
+
+}
+
+.input::placeholder{
+  font-size: 1.2rem;
+  font-weight: normal !important;
+}
+
+.input-wrapper img,
+.input-wrapper svg{
+  position: absolute;
+  height: 70%;
+  top: 50%;
+  left: 1rem;
+  transform: translate(0, -50%);
+  pointer-events: none;
+  user-select: none;
+}
+
+.input-wrapper svg{
+  fill: #D0C7E8;
+  transition: 0.1s ease;
+}
+
+.input-wrapper input:focus + svg{
+  fill:#6E0FF5;
+}
+
+
+
+/* switch */
+/* Genel stil */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  margin: 10px;
+
+}
+
+/* Giriş stil */
+.toggle-switch .toggle-input {
+  display: none;
+  
+}
+
+/* Anahtarın stilinin etrafındaki etiketin stil */
+.toggle-switch .toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow:0px 3px 5px rgba(208, 199, 232, 0.29) ;
+}
+
+.toggle-switch .toggle-label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  background-color:  #6E0FF5;
+  transition: transform 0.3s;
+  box-shadow:0px 3px 5px rgba(208, 199, 232, 0.29) ;
+
+
+}
+
+.toggle-switch .toggle-input:checked + .toggle-label {
+  background-color:  #6E0FF5;
+}
+
+.toggle-switch .toggle-input:checked + .toggle-label::before {
+  transform: translateX(25px);
+  background-color: #fff;
+}
+
+/* Light tema */
+.toggle-switch.light .toggle-label {
+  background-color: #BEBEBE;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label {
+  background-color: #9B9B9B;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label::before {
+  transform: translateX(6px);
+}
+
+/* Dark tema */
+.toggle-switch.dark .toggle-label {
+  background-color: #4B4B4B;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label {
+  background-color: #717171;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label::before {
+  transform: translateX(16px);
+}
+
+
+

@@ -1,0 +1,172 @@
+.register h1{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #211543;
+  text-align: center;
+}
+
+.register-form{
+  max-width: 700px;
+  margin: auto;
+}
+
+.register-form__grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 5rem
+
+
+}
+
+.register-form .input{
+  width: 100%;
+  padding: 1.2rem 24px;
+  border-radius: 30px;
+}
+
+
+.register .input::placeholder{
+  color: #D0C7E8;
+  font-weight: 700;
+  font-size: 12px;
+
+}
+
+.register-form__checkbox-container{
+  display: flex;
+  align-items: center;
+}
+
+.register-form__terms{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.register .btn{
+  background-color: var(--color-primary-4);
+  color: #fff;
+  border-radius: 3rem;
+  padding: 1.2rem 24px;
+  margin: auto;
+  width: 200px;
+  max-width: 100%;
+  letter-spacing: 0.5px;
+  margin-top: 3rem;
+  margin-bottom: 1.4rem;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+
+
+}
+
+
+.register .btn:hover{
+  /* background-color: transparent; */
+  /* border: 1px solid var(--color-primary-4);
+
+  color: var(--color-primary-4); */
+  background-color: #360083;
+
+
+}
+
+.register a{
+  color: #0A6CE5;
+}
+
+.register-form__terms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.register-form__login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.register-form__login a{
+  margin-left: 5px;
+}
+
+/* Checkbox */
+/* Checkbox */
+
+.register input[type="checkbox"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: var(--form-background);
+  /* Not removed via appearance */
+  margin: 0;
+
+
+  display: grid;
+  place-content: center;
+
+  width: 30px;
+  height: 30px;
+
+  min-width: 30px;
+  min-height: 30px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.05);
+  position: relative;
+  border-radius: 7px;
+  outline: none;
+}
+
+.register input[type="checkbox"]::before {
+  content: '';
+  background-color: transparent;
+
+  background: url(../assets/icons/check.png);
+  background-size: contain;
+  background-position: center 2px, center 2px;
+  background-repeat: no-repeat;
+  transform: scale(0);
+  transform-origin: center;
+  transition: 100ms transform ease-in-out;
+  /* Windows High Contrast Mode */
+  /* background-color: CanvasText; */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+
+}
+
+.register input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+
+/* radio buttons */
+
+.register-form__checkbox-container input{
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+  box-shadow: 0px 3px 5px rgba(173, 157, 187, 0.05);
+}
+
+.register-form__checkbox-container label{
+  margin-right: 2rem;
+  font-size: 14px !important;
+}

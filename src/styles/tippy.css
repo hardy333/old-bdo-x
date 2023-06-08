@@ -1,0 +1,8 @@
+body{
+}
+
+.tooltip-1{
+  background-color: #1c1238 !important;
+  border-radius: 15px !important;
+  padding-inline: 0.5rem;
+}

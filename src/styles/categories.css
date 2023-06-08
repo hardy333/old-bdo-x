@@ -1,0 +1,163 @@
+.categories{
+  width: 200px;
+  background-color: white;
+  height: calc(100% - 30px);
+  box-shadow: 0px 3px 5px rgba(208, 199, 232, 0.05);
+  border-radius: 15px;
+
+  position: relative;
+  z-index:99999999;
+  height: 100%;
+}
+
+
+.categories__header{
+  padding: 1rem;
+
+
+}
+
+
+.categories__list-container{
+  height: 460px;
+  overflow-y: auto;
+}
+
+.categories__list{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  
+}
+
+.categories__list li{
+  padding: 0.3rem 1.7rem;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #211543;
+
+}
+
+.categories__list li:hover{
+  background-color: #2e244814;
+
+
+}
+
+
+
+.categories__footer{
+  padding: 1rem;
+  padding-top: 1rem;
+  font-size: 14px;
+  padding-left: 1.5rem;
+}
+
+/* section 2 */
+.section-2{
+  position: absolute;
+  left: calc(100% + 0rem);
+  top: 0;
+  height: 100%;
+  width: 400px;
+  background-color: white;
+  border-radius: inherit;
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition: 0.2s ease-in-out;
+  pointer-events: none;
+
+  box-shadow: 3px 0px 5px 3px rgba(208, 199, 232, 0.25);
+  
+}
+
+.section-2.open{
+  opacity: 1;
+  transform: translate(0, 0px);
+  pointer-events: all;
+
+}
+
+.section-2 header{
+  padding: 1rem;
+
+}
+
+.section-2__container{
+  height: 505px;
+  overflow-y: scroll;
+  padding: 0 2rem;
+
+
+}
+
+
+
+.section-2__list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.2rem 2.5rem ;
+  
+}
+
+.section-2 li{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000ae;
+  cursor: pointer;
+}
+
+.section-2 li:hover{
+  color: #000000;
+  
+}
+
+/* section-2 5-level */
+/* section-2 5-level */
+
+.categories .parent-li{
+  font-weight: 700;
+}
+
+.categories .section-2__list-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-content: start;
+  align-items: start;
+
+}
+
+.categories .section-2__list-container ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section-3{
+  width: 300px !important;
+}
+
+.section-3__list{
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  gap: 1.2rem 1.5rem ;
+  
+}
+
+ .section-3{
+  pointer-events: none !important;
+
+
+}
+
+.section-2.open .section-3{
+  pointer-events: all;
+}

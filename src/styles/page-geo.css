@@ -1,0 +1,52 @@
+@import url("//cdn.web-fonts.ge/fonts/dejavu-sans/css/dejavu-sans.min.css");
+
+body{
+}
+
+.page-geo{
+  font-family: "DejaVu Sans", sans-serif !important;
+
+
+}
+
+.page-geo *{
+  font-family: "DejaVu Sans", sans-serif !important;
+}
+
+.page-geo .ag-grid-example {
+  font-family: "DejaVu Sans", sans-serif !important;
+
+}
+
+.page-geo .react-select__single-value  {
+  font-family: "DejaVu Sans", sans-serif !important;
+  display: flex;
+  align-items: center;
+
+}
+
+.page-geo .custom-header-cell-container span{
+  font-family: "DejaVu Sans", sans-serif !important;
+
+}
+
+.page-geo .ag-cell{
+  font-family: "DejaVu Sans", sans-serif !important;
+
+}
+
+.page-geo .ag-theme-alpine{
+  --ag-font-family:  "DejaVu Sans", sans-serif ;
+}
+
+
+
+
+.ag-theme-alpine {
+  --ag-font-family: "DejaVu Sans";
+}
+
+
+.ag-theme-example {
+  --ag-font-family: "DejaVu Sans";
+}

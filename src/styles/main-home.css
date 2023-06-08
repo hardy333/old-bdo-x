@@ -1,0 +1,21 @@
+.main-home{
+
+  color: var(--bg-aside);
+}
+
+.main-home__ill-container{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 7rem;
+}
+
+.main-home p{
+  max-width: 500px;
+
+  margin: auto;
+  text-align: center;
+  margin-top: 3rem;
+  
+}

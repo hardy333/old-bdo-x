@@ -1,0 +1,12 @@
+.vendors-date-range{
+}
+
+.vendors-date-range .rdrCalendarWrapper{
+  border-radius: 15px !important;
+  overflow: hidden;
+  background-color: transparent !important;
+}
+
+.vendors-date-range .rdrDateDisplayWrapper{
+  display: none;
+}

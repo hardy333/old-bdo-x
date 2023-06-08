@@ -1,0 +1,82 @@
+.filter-input-wrapper{
+  position: relative;
+  height: 25px;
+}
+
+.filter-input{
+  padding-right: 2.5rem;
+  padding-left: 0;
+  height: 25px !important;
+}
+
+.filter-input-img{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0px, -50%);
+  color: #D0C7E8;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 5px;
+  border-radius: 100%;
+  font-size: 16px;
+  padding: 0 5px;
+
+}
+
+.filter-input-img:hover{
+  filter: brightness(90%);
+}
+
+/* SLA */
+/* SLA */
+/* SLA */
+.sla-colored-cell-table .ag-floating-filter[aria-colindex="4"],
+.sla-colored-cell-table .ag-floating-filter[aria-colindex="5"],
+.sla-colored-cell-table .ag-floating-filter[aria-colindex="6"] {
+  border-radius: 0 !important;
+}
+
+
+.sla-colored-cell-table .ag-floating-filter[aria-colindex="4"]:hover,
+.sla-colored-cell-table .ag-floating-filter[aria-colindex="5"]:hover,
+.sla-colored-cell-table .ag-floating-filter[aria-colindex="6"]:hover{
+  background-color: rgba(235, 232, 245, 0.5) !important;
+}
+
+
+.sla-colored-cell-table .ag-floating-filter[aria-colindex="4"] .filter-input,
+.sla-colored-cell-table .ag-floating-filter[aria-colindex="5"] .filter-input,
+.sla-colored-cell-table .ag-floating-filter[aria-colindex="6"] .filter-input{
+background-color: transparent !important;
+}
+
+/* DISCOUNTS */
+/* DISCOUNTS */
+/* DISCOUNTS */
+
+.discounts-table .ag-floating-filter[aria-colindex="4"],
+.discounts-table .ag-floating-filter[aria-colindex="5"],
+.discounts-table .ag-floating-filter[aria-colindex="6"],
+.discounts-table .ag-floating-filter[aria-colindex="7"],
+.discounts-table .ag-floating-filter[aria-colindex="8"] {
+  border-radius: 0 !important;
+}
+
+
+.discounts-table .ag-floating-filter[aria-colindex="4"]:hover,
+.discounts-table .ag-floating-filter[aria-colindex="5"]:hover,
+.discounts-table .ag-floating-filter[aria-colindex="6"]:hover,
+.discounts-table .ag-floating-filter[aria-colindex="7"]:hover,
+.discounts-table .ag-floating-filter[aria-colindex="8"]:hover{
+  background-color: rgba(235, 232, 245, 0.5) !important;
+}
+
+
+.discounts-table .ag-floating-filter[aria-colindex="4"] .filter-input,
+.discounts-table .ag-floating-filter[aria-colindex="5"] .filter-input,
+.discounts-table .ag-floating-filter[aria-colindex="6"] .filter-input,
+.discounts-table .ag-floating-filter[aria-colindex="7"] .filter-input,
+.discounts-table .ag-floating-filter[aria-colindex="8"] .filter-input{
+background-color: transparent !important;
+}

@@ -1,0 +1,26 @@
+
+.dashboard-aside-light{
+  left: 100px;
+
+}
+
+
+.dashboard-aside-light.go-left{
+  left: 1rem;
+}
+
+.dashboard-aside-light .dashboard-aside__list img {
+  width: 2.5rem;
+  margin: auto;
+  display: block;
+  transition: all 0.3s;
+  filter: brightness(100%);
+}
+
+ 
+.dashboard-aside-light .dashboard-aside__list span{
+  transition: 0.3s;
+  filter: brightness(100%);
+  opacity: 0;
+
+}

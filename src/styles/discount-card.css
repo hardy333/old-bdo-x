@@ -1,0 +1,131 @@
+
+
+.discount-card{
+  background: #FFFFFF;
+  box-shadow: 0px 3px 5px rgba(208, 199, 232, 0.05);
+  border-radius: 15px;
+  padding: 3rem 2rem;
+  padding-bottom: 2.2rem;
+  position: relative;
+
+  min-height: 213px;
+  overflow: hidden;
+}
+
+.discount-card h2{
+  font-weight: 700;
+font-size: 18px;
+line-height: 17px;
+font-size: 17px;
+
+color: #F55364;
+margin-bottom: 0.5rem;
+
+
+}
+
+.discount-card h3{
+  font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+color: #211543;
+margin-bottom: 1.5rem;
+
+}
+
+.discount-card h4{
+  font-weight: 400;
+  font-size: 14px;
+
+
+display: flex;
+font-weight: bold;
+gap: 1rem;
+margin-bottom: 2px;
+
+
+
+}
+
+.discount-card__body {
+  margin: 2.5rem 0;
+}
+
+.discount-card__body p{
+  font-size: 12px;
+}
+
+.discount-card h4 svg{
+  width: 18px;
+}
+
+
+.discount-card .btn{
+  margin-inline: auto;
+  border: none;
+  margin-top: 2rem;
+  background-color: transparent;
+  border: 1px solid #6E0FF5;
+}
+
+.discount-card .btn:hover{
+  background-color: #6E0FF5;
+  color: #fff;
+
+
+}
+
+.discount-card__ayee-img{
+  position: absolute;
+  display: block;
+  top: 1rem;
+  right: 1rem;
+  font-size: 30pg;
+
+}
+
+.discount-card__ayee-img svg{
+  width: 15px;
+  height: 15px;
+}
+
+.discount-card__new-img{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.discount-card__new-img svg{
+  width: 22px;
+  height: 22px;
+  fill: #6E0FF5 !important;
+
+}
+
+
+.discount-card .triangle {
+  width: 100px;
+  height: 100px;
+  background-color: #6E0FF5;
+
+  position: absolute;
+
+  top: 0;
+  right: 0; 
+  transform:  translate(60%, -60%) rotate(45deg);
+  /* display: none; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.discount-card .triangle span{
+  /* display: none; */
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 1px;
+  font-weight: 600;
+
+}

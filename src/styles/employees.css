@@ -1,0 +1,289 @@
+.employees-header{
+  padding: 0 30px;
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
+.employees-header .btn{
+  border: 1px solid #211543;
+}
+
+.employees-header .btn:hover{
+  /* background-color: #211543; */
+  /* color: #fff; */
+}
+
+.employees-header h1{
+  margin: auto 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #211543;
+}
+
+
+.employees-settings{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.employees-settings .btn {
+  margin-left: auto;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+  
+}
+
+.employees-settings .btn:hover{
+  background-color: #211543;
+  color: #fff;
+}
+
+.employees-settings .btn svg{
+  --size: 15px;
+  width: var(--size);
+  height: var(--size);
+  transition: all 0.3s ease;
+
+}
+
+.employees-settings .btn:hover svg{
+  fill: #fff  !important;
+}
+
+.employees-settings .expanding-input-img{
+
+  width: 22px;
+  height: 22px;
+}
+
+
+/* Cards */
+.employees-card-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  /* grid-auto-rows: 230px; */
+  gap: 3rem;
+  margin-top: 1.5rem;
+  height: 400px;
+  overflow-y: auto;
+  padding: 3rem;
+  padding-top: 2rem;
+  flex-grow: 1;
+  padding-left: 0;
+
+  /* overflow-x: hidden; */
+
+
+}
+
+.employee-card{
+  background: #FFFFFF;
+  box-shadow: 0px 3px 5px rgba(208, 199, 232, 0.05);
+  border-radius: 15px;
+  padding: 2rem 2rem;
+  padding-bottom: 2.2rem;
+  position: relative;
+
+}
+
+.employee-card__img-container{
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  --size: 6.5rem;
+  width: 35px;
+  height: 35px;
+
+}
+
+.employee-card__dots-btn{
+  position: absolute;
+  right: 0.4rem;
+  top: 1.8rem;
+
+  height: 25px;
+  width: 25px;
+
+  background-color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  cursor: pointer;
+}
+
+.employee-card__dots-btn:hover{
+  background-color: hsla(256, 42%, 85%, 0.082);
+}
+
+.employee-card__dots-btn.open{
+  background-color: hsla(256, 42%, 65%, 0.080);
+
+}
+
+.employee-card__dots-btn svg{
+  flex-shrink: 0;
+  height: 15px;
+
+}
+
+
+.employee-card h2{
+  font-weight: 700;
+  font-size: 14px;
+  color: #211543;
+  text-align: center;
+
+}
+
+.employee-card h3{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #D0C7E8;
+  margin-bottom: 1.8rem;
+
+
+}
+
+.employee-card h4{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height */
+  margin-bottom: 0.4rem;
+  color: #FFA23C;
+}
+
+.employee-card ul {
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.employee-card ul li{
+  color: #211543;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #211543;
+
+}
+
+.employee-card .btn{
+  color: var(--color-text-2);
+  font-size: 12px;
+  font-weight: 700;
+  margin: auto;
+  transition: all 0.2s ease;
+  border: 1px solid #6E0FF5;
+  background-color:transparent;
+
+}
+
+.employee-card .btn:hover{
+  background-color: #6E0FF5;
+  color: #fff;
+
+
+}
+
+/* Pag container */
+/* Pag container */
+
+.employee-pag-container{
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  gap: 5px;
+  color: #D0C7E8;
+  position: relative;
+
+ 
+}
+
+.employee-pag-container button{
+  font-style: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #D0C7E8;
+  transition: 0.2s ease;
+
+}
+
+.employee-pag-container button:hover{
+  color:#211543;
+  
+}
+
+.employee-pag-container button.active{
+  color:#21154384;
+}
+
+.employees-page-info{
+  position: absolute;
+  top: 50%;
+  right: 2.5rem;
+  transform: translate(0,-50%);
+  font-size: 14px;
+  line-height: 15px;
+  color: #D0C7E8;
+
+}
+
+.employee-card-menu ul{
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  overflow: hidden;
+  width: 100px
+}
+
+.employee-card-menu .szh-menu__item--hover{
+  background-color: rgba(0, 0,0, 0.03);
+}
+
+/* Modal */
+/* Modal */
+
+.employees-modal{
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  border-radius: 15px;
+  padding: 20px;
+
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+
+  padding: 50px 50px;
+
+  text-align: center;
+
+
+}
+
+
+
+
+
+
+

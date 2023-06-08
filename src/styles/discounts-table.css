@@ -1,0 +1,68 @@
+.discount-container{
+
+  font-size: 14px;
+  text-align: center;
+  color: #211543;
+  font-weight: 700;
+}
+
+.discount-container span{
+  font-weight: 500;
+}
+
+
+/* cell coloring */
+/* cell coloring */
+/* cell coloring */
+.discounts-table .ag-cell[aria-colindex="4"],
+.discounts-table .ag-cell[aria-colindex="5"],
+.discounts-table .ag-cell[aria-colindex="6"],
+.discounts-table .ag-cell[aria-colindex="7"],
+.discounts-table .ag-cell[aria-colindex="8"]{
+  background-color: rgba(235, 232, 245, 0.5);
+}
+
+
+.discounts-table .ag-row:last-of-type .ag-cell[aria-colindex="4"]{
+  border-bottom-left-radius: 15px;
+}
+
+.discounts-table .ag-row:last-of-type .ag-cell[aria-colindex="8"]{
+  border-bottom-right-radius: 15px;
+}
+
+/* Headers */
+.discounts-table .ag-header-active[aria-colindex="4"],
+.discounts-table .ag-header-active[aria-colindex="5"],
+.discounts-table .ag-header-active[aria-colindex="6"],
+.discounts-table .ag-header-active[aria-colindex="7"],
+.discounts-table .ag-header-active[aria-colindex="8"]{
+  background-color: rgba(235, 232, 245, 0.5) !important;
+}
+
+
+.discounts-table .ag-header-cell[aria-colindex="4"],
+.discounts-table .ag-header-cell[aria-colindex="5"],
+.discounts-table .ag-header-cell[aria-colindex="6"],
+.discounts-table .ag-header-cell[aria-colindex="7"],
+.discounts-table .ag-header-cell[aria-colindex="8"]{
+  background-color: rgba(235, 232, 245, 0.5);
+}
+
+.discounts-table .ag-header-cell[aria-colindex="4"]{
+  border-top-left-radius: 15px;
+
+}
+
+.discounts-table .ag-header-cell[aria-colindex="8"]{
+  border-top-right-radius: 15px;
+
+}
+
+
+.discounts-table .ag-header-active[aria-colindex="4"],
+.discounts-table .ag-header-active[aria-colindex="5"],
+.discounts-table .ag-header-active[aria-colindex="6"]{
+  background-color: rgba(235, 232, 245, 0.5) !important;
+
+}

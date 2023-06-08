@@ -1,0 +1,9 @@
+body{
+}
+
+.column-toggle-popup .szh-menu__item{
+
+  display: flex !important;
+  align-items: center !important;
+  /* padding: 0 !important; */
+}

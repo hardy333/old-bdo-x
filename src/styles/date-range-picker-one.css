@@ -1,0 +1,74 @@
+
+
+
+.date-range-picker-one .rdrDefinedRangesWrapper{
+  border-color: #fff;
+}
+
+
+.date-range-picker-one .rdrMonthName{
+  display: none;
+}
+
+
+/* General */
+/* General */
+.rdrMonthPicker select,
+.rdrYearPicker select{
+  border-radius: 30px;
+  width: 110px;
+
+}
+
+.rdrDayNumber span::after{
+  background-color: hsl(265, 97%, 72%) !important;
+}
+
+
+/* LEft  */
+/* LEft  */
+/* LEft  */
+
+.rdrDefinedRangesWrapper{
+  cursor: default;
+}
+
+.rdrStaticRange{
+  padding: 0.5rem 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  position: relative;
+}
+
+.rdrStaticRangeLabel{
+
+}
+
+.rdrStaticRange:hover{
+  background-color: #fff;
+}
+
+.rdrStaticRange:hover .rdrStaticRangeLabel{
+  background-color: #fff !important;
+  color: #6E0FF5;
+}
+
+.rdrStaticRange:last-child{
+  bottom: none;
+}
+
+.rdrStaticRange:before{
+  content: "";
+  position: absolute;
+  left: 1rem;
+  bottom: 0;
+  /* transform: translate(-50%, 0); */
+  height: 1px;
+  width: 150px;
+  display: block;
+  background-color: #ebe8f58a;
+}
+
+.rdrStaticRange:last-child:before{
+  display: none;
+}

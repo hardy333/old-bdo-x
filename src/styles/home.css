@@ -1,0 +1,35 @@
+.home{
+  display: flex;
+
+  flex-direction: column;
+  padding-left: 6rem;
+  gap: 1rem;
+
+}
+
+.home h1{
+  font: 2rem;
+  font-weight: bold;
+  font-size: 3rem;
+  
+
+}
+
+.home-links-container{
+  display: flex;
+  gap: 2rem;
+
+}
+
+.home-links{
+  display: flex;
+  flex-direction: column;
+}
+
+.home-links a{
+  color: var(--color-primary-2);
+}
+
+.home-links h2{
+  font-weight: 3rem;
+}

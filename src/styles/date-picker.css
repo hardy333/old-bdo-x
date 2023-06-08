@@ -1,0 +1,65 @@
+.date-picker-wrapper{
+  width: 273px;
+}
+
+.rdp-caption{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+  font-weight: 700;
+font-size: 18px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #211543;
+
+}
+
+.rdp-head_cell{
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+  --size: 30px;
+  width: var(--size);
+  height: 35px;
+  margin: 2px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height */
+  border: 5px solid transparent;
+
+
+
+  color: #211543;
+
+}
+
+/* body */
+/* body */
+.rdp-cell{
+
+}
+
+.rdp-cell .rdp-button{
+  background-color: #fff;
+  --size: 35px;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: #211543;
+
+
+}
+
+.rdp-cell .rdp-button.rdp-day_selected{
+  border: 1px solid var(--color-primary-4) ;
+}
